@@ -115,8 +115,8 @@
 }
 [data-route="workspace"] .control-pad .container-fluid {
   background-color: #ffffe0;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 [data-route="workspace"] .pos-name {
   text-align: center;
@@ -137,6 +137,9 @@
   font-size: 12px;
   width: 99%;
   resize: none;
+  height: 135px;
+  line-height: 15px;
+  padding: 0 2px;
 }
 [data-route="workspace"] .axis-position .btn {
   width: 90%;
@@ -148,7 +151,8 @@
 [data-route="workspace"] .mdi .container-fluid {
   background-color: #fff0f5;
   padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 0;
+  height: 158px;
 }
 @media (min-width: 768px) {
   [data-route="workspace"] {
