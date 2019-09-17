@@ -108,9 +108,6 @@
 [data-route="workspace"] .axis-position .row {
   padding-bottom: 5px;
 }
-[data-route="workspace"] .nav-panel .container-fluid {
-  padding-bottom: 12px;
-}
 [data-route="workspace"] .axis-position .container-fluid {
   background-color: #f0ffff;
   padding-top: 12px;

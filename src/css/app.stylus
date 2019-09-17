@@ -34,6 +34,10 @@
         .row [class*=" col-"]:last-child {
             padding-right: 0;
         }
+
+        .container-fluid {
+            //padding-bottom: 12px;
+        }
     }
 
     .active-state {
@@ -120,9 +124,6 @@
     }
     .axis-position .row {
         padding-bottom: 5px;
-    }
-    .nav-panel .container-fluid {
-        padding-bottom: 12px;
     }
     .axis-position .container-fluid {
         background-color: azure;
