@@ -132,8 +132,8 @@
     }
     .control-pad .container-fluid {
         background-color: lightyellow;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
     .pos-name {
         text-align: center;
@@ -154,6 +154,9 @@
         font-size: 12px;
         width: 99%;
         resize: none;
+        height: 135px;
+        line-height: 15px;
+        padding: 0 2px;
     }
     .axis-position .btn {
         width: 90%;
@@ -166,7 +169,8 @@
     .mdi .container-fluid {
         background-color: lavenderblush;
         padding-top: 12px;
-        padding-bottom: 12px;
+        padding-bottom: 0;
+        height 158px;
     }
 
     @media (min-width: 768px) {
