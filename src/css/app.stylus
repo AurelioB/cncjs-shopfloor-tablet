@@ -98,6 +98,74 @@
             padding-left: 0;
             padding-right: 0;
         }
+
+        .form-control[disabled] {
+            opacity: .4;
+        }
+    }
+
+    .btn[disabled] {
+        opacity: .6;
+    }
+    .middle-block {
+        top: 100%;
+        left: 0;
+        z-index: 100;
+    }
+    .jog-controls {
+        display: block;
+    }
+    .run-controls {
+        display: none;
+    }
+    .axis-position .row {
+        padding-bottom: 5px;
+    }
+    .nav-panel .container-fluid {
+        padding-bottom: 12px;
+    }
+    .axis-position .container-fluid {
+        background-color: azure;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .control-pad .container-fluid {
+        background-color: lightyellow;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .pos-name {
+        text-align: center;
+    }
+    .info-button {
+        text-align: center;
+        padding: 5px 10px;
+    }
+    .load {
+        font-size: 12px;
+        width: 99%;
+        resize: none;
+    }
+    .fileslist {
+        padding-top: 20px;
+    }
+    textarea {
+        font-size: 12px;
+        width: 99%;
+        resize: none;
+    }
+    .axis-position .btn {
+        width: 90%;
+        text-align: center;
+    }
+
+    .btn-units {
+        text-align: left;
+    }
+    .mdi .container-fluid {
+        background-color: lavenderblush;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 
     @media (min-width: 768px) {
@@ -162,3 +230,5 @@
     }
 
 }
+
+

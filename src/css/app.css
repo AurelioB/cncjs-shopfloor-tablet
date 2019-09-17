@@ -88,6 +88,71 @@
   padding-left: 0;
   padding-right: 0;
 }
+[data-route="workspace"] .control-pad .form-control[disabled] {
+  opacity: 0.4;
+}
+[data-route="workspace"] .btn[disabled] {
+  opacity: 0.6;
+}
+[data-route="workspace"] .middle-block {
+  top: 100%;
+  left: 0;
+  z-index: 100;
+}
+[data-route="workspace"] .jog-controls {
+  display: block;
+}
+[data-route="workspace"] .run-controls {
+  display: none;
+}
+[data-route="workspace"] .axis-position .row {
+  padding-bottom: 5px;
+}
+[data-route="workspace"] .nav-panel .container-fluid {
+  padding-bottom: 12px;
+}
+[data-route="workspace"] .axis-position .container-fluid {
+  background-color: #f0ffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+[data-route="workspace"] .control-pad .container-fluid {
+  background-color: #ffffe0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+[data-route="workspace"] .pos-name {
+  text-align: center;
+}
+[data-route="workspace"] .info-button {
+  text-align: center;
+  padding: 5px 10px;
+}
+[data-route="workspace"] .load {
+  font-size: 12px;
+  width: 99%;
+  resize: none;
+}
+[data-route="workspace"] .fileslist {
+  padding-top: 20px;
+}
+[data-route="workspace"] textarea {
+  font-size: 12px;
+  width: 99%;
+  resize: none;
+}
+[data-route="workspace"] .axis-position .btn {
+  width: 90%;
+  text-align: center;
+}
+[data-route="workspace"] .btn-units {
+  text-align: left;
+}
+[data-route="workspace"] .mdi .container-fluid {
+  background-color: #fff0f5;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 @media (min-width: 768px) {
   [data-route="workspace"] {
     font-size: 20px;
