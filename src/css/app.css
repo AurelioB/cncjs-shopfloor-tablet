@@ -1,3 +1,31 @@
+body {
+  color: #d6d3cd;
+  background-color: #181a1b !important;
+}
+html,
+body,
+input,
+textarea,
+select,
+button {
+  border-color: #575757;
+  color: #e8e6e3;
+  background-color: #181a1b;
+  border-top-color: #555;
+  border-right-color: #555;
+  border-bottom-color: #555;
+  border-left-color: #555;
+}
+.form-control {
+  color: #c9c5be;
+  background-color: #181a1b;
+  background-image: none;
+  border-top-color: #3d3d3d;
+  border-right-color: #3d3d3d;
+  border-bottom-color: #3d3d3d;
+  border-left-color: #3d3d3d;
+  box-shadow: rgba(0,0,0,0.07) 0px 1px 1px inset;
+}
 [data-route="close"] {
   padding: 10px;
 }
@@ -17,6 +45,14 @@
 [data-route="workspace"] .dropdown-menu>li>a .fa {
   width: 16px;
 }
+[data-route="workspace"] .btn-default {
+  color: #d6d3cd;
+  background-color: #181a1b;
+  border-top-color: #3d3d3d;
+  border-right-color: #3d3d3d;
+  border-bottom-color: #3d3d3d;
+  border-left-color: #3d3d3d;
+}
 [data-route="workspace"] .nav-panel .btn {
   width: 100%;
   padding-left: 0;
@@ -33,9 +69,13 @@
 [data-route="workspace"] .active-state {
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #f6f6f6;
   padding: 5px 10px;
   text-align: center;
+  border-top-color: #3d3d3d;
+  border-right-color: #3d3d3d;
+  border-bottom-color: #3d3d3d;
+  border-left-color: #3d3d3d;
+  background-color: #1b1c1e;
 }
 [data-route="workspace"] .axis-label {
   text-align: right;
@@ -109,12 +149,12 @@
   padding-bottom: 5px;
 }
 [data-route="workspace"] .axis-position .container-fluid {
-  background-color: #f0ffff;
+  background-color: #36393f;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 [data-route="workspace"] .control-pad .container-fluid {
-  background-color: #ffffe0;
+  background-color: #36393f;
   padding-top: 6px;
   padding-bottom: 6px;
 }
@@ -140,6 +180,7 @@
   height: 135px;
   line-height: 15px;
   padding: 0 2px;
+  color: inherit;
 }
 [data-route="workspace"] .axis-position .btn {
   width: 90%;
@@ -149,7 +190,7 @@
   text-align: left;
 }
 [data-route="workspace"] .mdi .container-fluid {
-  background-color: #fff0f5;
+  background-color: #36393f;
   padding-top: 12px;
   padding-bottom: 0;
   height: 158px;
@@ -157,6 +198,7 @@
 [data-route="workspace"] .mdi canvas {
   height: 135px;
   width: auto;
+  filter: invert();
 }
 @media (min-width: 768px) {
   [data-route="workspace"] {
