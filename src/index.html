@@ -15,7 +15,8 @@
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="stylesheet" type="text/css" href="vendor/normalize/normalize.css">
 <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">-->
+<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css">
 <link rel="stylesheet" type="text/css" href="css/theme.css">
 <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
@@ -57,7 +58,7 @@
     <div class="form-group">
         <button type="button" class="btn btn-primary" data-name="btn-open">Open</button>
         <button type="button" class="btn btn-danger" data-name="btn-close">
-          <!-- <i class="fa fa-power-off"></i>&nbsp; -->
+          <!-- <i class="fas fa-power-off"></i>&nbsp; -->
           Close
         </button>
     </div>
@@ -77,12 +78,12 @@
                 </div>
                 <div class="col-xs-2">
                     <button type="button" class="btn btn-default btn-start" onclick="cnc.doLeftButton()">
-                        <i class="fa fa-play"></i> Start
+                        <i class="fas fa-play"></i> Start
                     </button>
                 </div>
                 <div class="col-xs-2">
                     <button type="button" class="btn btn-default btn-pause" onclick="cnc.doRightButton()">
-                        <i class="fa fa-pause"></i> Pause
+                        <i class="fas fa-pause"></i> Pause
                     </button>
                 </div>
 
@@ -95,38 +96,38 @@
                         <div class="btn-group">
                             <div class="dropdown">
                                 <button type="button" class="btn btn-default" data-name="btn-dropdown" data-toggle="dropdown">
-                                    <i class="fa fa-list"></i>
+                                    <i class="fas fa-list"></i>
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-right" role="menu">
                                     <li>
-                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('homing')"><i class="fa fa-home"></i>&nbsp;Homing</a>
+                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('homing')"><i class="fas fa-home"></i>&nbsp;Homing</a>
                                     </li>
                                     <li>
                                         <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('g\
-code', 'G28.2 A0')"><i class="fa fa-home"></i>&nbsp;Home A</a>
+code', 'G28.2 A0')"><i class="fas fa-home"></i>&nbsp;Home A</a>
                                     </li>
                                     <li>
                                         <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('g\
-code', 'M5')"><i class="fa fa-power-off"></i>&nbsp;Spindle Off</a>
+code', 'M5')"><i class="fas fa-power-off"></i>&nbsp;Spindle Off</a>
                                     </li>
                                     <li>
-                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('gcode', '$SLP')"><i class="fa fa-bed"></i>&nbsp;Sleep</a>
+                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('gcode', '$SLP')"><i class="fas fa-bed"></i>&nbsp;Sleep</a>
                                     </li>
                                     <li>
-                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('unlock')"><i class="fa fa-unlock-alt"></i>&nbsp;Unlock</a>
+                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('unlock')"><i class="fas fa-unlock-alt"></i>&nbsp;Unlock</a>
                                     </li>
                                     <li>
-                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('reset')"><i class="fa fa-undo"></i>&nbsp;Reset</a>
+                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.controller.command('reset')"><i class="fas fa-undo"></i>&nbsp;Reset</a>
                                     </li>
                                     <li>
-                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.probe()"><i class="fa fa-pencil"></i>&nbsp;Probe</a>
+                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.probe()"><i class="fas fa-pencil"></i>&nbsp;Probe</a>
                                     </li>
                                     <li>
-                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.runUserCommand('HardReset')"><i class="fa fa-undo"></i>&nbsp;HardReset</a>
+                                        <a role="menuitem" href="javascript:void(0)" onclick="cnc.runUserCommand('HardReset')"><i class="fas fa-undo"></i>&nbsp;HardReset</a>
                                     </li>
                                     <li role="separator" class="divider"></li>
                                     <li>
-                                        <a role="menuitem" href="#/connection"><i class="fa fa-chevron-left"></i>&nbsp;Connection</a>
+                                        <a role="menuitem" href="#/connection"><i class="fas fa-chevron-left"></i>&nbsp;Connection</a>
                                     </li>
                                 </ul>
                             </div>
@@ -282,7 +283,7 @@ code', 'M5')"><i class="fa fa-power-off"></i>&nbsp;Spindle Off</a>
                         title="Move Y+"
                         onclick="cnc.sendMove('Y+')"
                     >
-                        <i class="fa fa-arrow-up"></i>
+                        <i class="fas fa-arrow-up"></i>
                     </button>
                 </div>
                 <div class="col-xs-2 emptyURHC">
@@ -294,7 +295,7 @@ code', 'M5')"><i class="fa fa-power-off"></i>&nbsp;Spindle Off</a>
                         title="Move Z+"
                         onclick="cnc.sendMove('Z+')"
                     >
-                        <i class="fa fa-arrow-up"></i>
+                        <i class="fas fa-arrow-up"></i>
                     </button>
                 </div>
 
@@ -348,7 +349,7 @@ code', 'M5')"><i class="fa fa-power-off"></i>&nbsp;Spindle Off</a>
                         title="Move X-"
                         onclick="cnc.sendMove('X-')"
                     >
-                        <i class="fa fa-arrow-left"></i>
+                        <i class="fas fa-arrow-left"></i>
                     </button>
                 </div>
                 <div class="col-xs-2 info-button" id="spindle">
@@ -360,7 +361,7 @@ code', 'M5')"><i class="fa fa-power-off"></i>&nbsp;Spindle Off</a>
                         title="Move X+"
                         onclick="cnc.sendMove('X+')"
                     >
-                        <i class="fa fa-arrow-right"></i>
+                        <i class="fas fa-arrow-right"></i>
                     </button>
                 </div>
 
@@ -437,7 +438,7 @@ code', 'M5')"><i class="fa fa-power-off"></i>&nbsp;Spindle Off</a>
                         title="Move Y-"
                         onclick="cnc.sendMove('Y-')"
                     >
-                        <i class="fa fa-arrow-down"></i>
+                        <i class="fas fa-arrow-down"></i>
                     </button>
                 </div>
                 <div class="col-xs-2 info-button" id="emptyLLHC">
@@ -449,7 +450,7 @@ code', 'M5')"><i class="fa fa-power-off"></i>&nbsp;Spindle Off</a>
                         title="Move Z-"
                         onclick="cnc.sendMove('Z-')"
                     >
-                        <i class="fa fa-arrow-down"></i>
+                        <i class="fas fa-arrow-down"></i>
                     </button>
                 </div>
 
