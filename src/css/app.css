@@ -184,7 +184,7 @@ button {
   resize: none;
   height: 135px;
   line-height: 15px;
-  padding: 0 2px;
+  padding: 0 5px;
   color: inherit;
 }
 [data-route="workspace"] .axis-position .btn {
