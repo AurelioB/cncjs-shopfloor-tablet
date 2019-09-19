@@ -70,6 +70,11 @@ html, body, input, textarea, select, button {
             padding-right: 0;
         }
 
+        .btn-start,
+        .btn-pause {
+            color: rgb(214, 211, 205);
+        }
+
         .container-fluid {
             //padding-bottom: 12px;
         }
@@ -133,7 +138,7 @@ html, body, input, textarea, select, button {
             padding-right: 0;
         }
         .row {
-            padding-bottom: 5px;
+            padding: 0 5px 5px;
         }
         .row:last-child {
             padding-bottom: 0;
@@ -164,17 +169,19 @@ html, body, input, textarea, select, button {
         display: none;
     }
     .axis-position .row {
-        padding-bottom: 5px;
+        padding: 0 5px 5px;
     }
     .axis-position .container-fluid {
-        background-color: #36393f;
+        //background-color: #36393f;
         padding-top: 12px;
         padding-bottom: 12px;
+        background-color: rgb(56, 59, 61);
     }
     .control-pad .container-fluid {
         background-color: #36393f;
         padding-top: 6px;
         padding-bottom: 6px;
+        background-color: rgb(56, 59, 61);
     }
     .pos-name {
         text-align: center;
@@ -203,6 +210,8 @@ html, body, input, textarea, select, button {
     .axis-position .btn {
         width: 90%;
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .btn-units {
@@ -214,6 +223,7 @@ html, body, input, textarea, select, button {
             padding-top: 12px;
             padding-bottom: 0;
             height 158px;
+            background-color: rgb(56, 59, 61);
         }
 
         canvas {
@@ -287,4 +297,37 @@ html, body, input, textarea, select, button {
 
 }
 
+.form-control {
+    color: rgb(201, 197, 190);
+    background-color: rgb(24, 26, 27);
+    background-image: none;
+    border-top-color: rgb(90, 90, 90);
+    border-right-color: rgb(90, 90, 90);
+    border-bottom-color: rgb(90, 90, 90);
+    border-left-color: rgb(90, 90, 90);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px inset;
+}
 
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: rgb(29, 31, 32);
+}
+
+[data-route="workspace"] .btn-default {
+    color: rgb(214, 211, 205);
+    background-color: rgb(24, 26, 27);
+    border-top-color: rgb(90, 90, 90);
+    border-right-color: rgb(90, 90, 90);
+    border-bottom-color: rgb(90, 90, 90);
+    border-left-color: rgb(90, 90, 90);
+}
+
+
+.dropdown-backdrop {
+    backdrop-filter: blur(2px);
+}
+
+#jog-distance {
+    text-align: center;
+    text-align-last: center;
+    padding-right: 0;
+}

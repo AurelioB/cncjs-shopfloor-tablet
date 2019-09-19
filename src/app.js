@@ -665,9 +665,9 @@ $(function() {
         $('[data-route="workspace"] [id="units"]').text(modal.units == 'G21' ? 'mm' : 'Inch');
         $('[data-route="workspace"] [id="units"]').prop('disabled', cnc.controllerType == 'Marlin');
 
-        var green = '#86f686';
-        var red = '#f64646';
-        var gray = '#f6f6f6';
+        var green = '#097309';
+        var red = '#a33434';
+        var gray = '#1b1c1e';
         switch (machineWorkflow) {
             case MACHINE_STALL:
                 setLeftButton(true, gray, 'Start', null);

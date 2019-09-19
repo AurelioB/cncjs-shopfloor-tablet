@@ -66,6 +66,10 @@ button {
 [data-route="workspace"] .nav-panel .row [class*=" col-"]:last-child {
   padding-right: 0;
 }
+[data-route="workspace"] .nav-panel .btn-start,
+[data-route="workspace"] .nav-panel .btn-pause {
+  color: #d6d3cd;
+}
 [data-route="workspace"] .active-state {
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -118,7 +122,7 @@ button {
   padding-right: 0;
 }
 [data-route="workspace"] .control-pad .row {
-  padding-bottom: 5px;
+  padding: 0 5px 5px;
 }
 [data-route="workspace"] .control-pad .row:last-child {
   padding-bottom: 0;
@@ -146,17 +150,18 @@ button {
   display: none;
 }
 [data-route="workspace"] .axis-position .row {
-  padding-bottom: 5px;
+  padding: 0 5px 5px;
 }
 [data-route="workspace"] .axis-position .container-fluid {
-  background-color: #36393f;
   padding-top: 12px;
   padding-bottom: 12px;
+  background-color: #383b3d;
 }
 [data-route="workspace"] .control-pad .container-fluid {
   background-color: #36393f;
   padding-top: 6px;
   padding-bottom: 6px;
+  background-color: #383b3d;
 }
 [data-route="workspace"] .pos-name {
   text-align: center;
@@ -185,6 +190,8 @@ button {
 [data-route="workspace"] .axis-position .btn {
   width: 90%;
   text-align: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 [data-route="workspace"] .btn-units {
   text-align: left;
@@ -194,6 +201,7 @@ button {
   padding-top: 12px;
   padding-bottom: 0;
   height: 158px;
+  background-color: #383b3d;
 }
 [data-route="workspace"] .mdi canvas {
   height: 135px;
@@ -265,4 +273,35 @@ button {
     font-size: 28px;
     height: 52px;
   }
+}
+.form-control {
+  color: #c9c5be;
+  background-color: #181a1b;
+  background-image: none;
+  border-top-color: #5a5a5a;
+  border-right-color: #5a5a5a;
+  border-bottom-color: #5a5a5a;
+  border-left-color: #5a5a5a;
+  box-shadow: rgba(0,0,0,0.07) 0px 1px 1px inset;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #1d1f20;
+}
+[data-route="workspace"] .btn-default {
+  color: #d6d3cd;
+  background-color: #181a1b;
+  border-top-color: #5a5a5a;
+  border-right-color: #5a5a5a;
+  border-bottom-color: #5a5a5a;
+  border-left-color: #5a5a5a;
+}
+.dropdown-backdrop {
+  backdrop-filter: blur(2px);
+}
+#jog-distance {
+  text-align: center;
+  text-align-last: center;
+  padding-right: 0;
 }
