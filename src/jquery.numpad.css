@@ -31,6 +31,11 @@ input.nmpd-display {
 .nmpd-btn {
     height: 50px;
     width: 50px !important;
+    font-size: 20px;
+}
+
+.nmpd-btn.numero {
+    background-color: #b9b9b9;
 }
 
 
